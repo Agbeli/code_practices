@@ -6,5 +6,3 @@
  - Languages:
 	- Python  
 	- Javascript 
-
-
