@@ -3,7 +3,7 @@
 
 from typing import List
 
-class containsDuplicate:
+class ContainsDuplicate:
 	def __init__(self,nums:List[int]):
 
 		self.nums = nums 
@@ -23,14 +23,14 @@ class containsDuplicate:
 
 if __name__ == '__main__':
 	nums1 = [1,2,3,1]
-	constainsElement = containsDuplicate(nums=nums1)
+	constainsElement = ContainsDuplicate(nums=nums1)
 	print(f"The {nums1} has duplicate elements: {constainsElement.checkDuplicate()}")
 	print()
 	nums2 = [1,2,3,4]
-	constainsElement2 = containsDuplicate(nums=nums2)
+	constainsElement2 = ContainsDuplicate(nums=nums2)
 	print(f"The {nums2} has duplicate elements: {constainsElement2.checkDuplicate()}")
 
 	print()
 	nums3 = [1,1,1,3,3,4,3,2,4,2]
-	constainsElement3 = containsDuplicate(nums=nums3)
+	constainsElement3 = ContainsDuplicate(nums=nums3)
 	print(f"The {nums3} has duplicate elements: {constainsElement3.checkDuplicate()}")
