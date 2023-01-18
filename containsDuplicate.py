@@ -6,6 +6,14 @@ from typing import List
 class ContainsDuplicate:
 	def __init__(self,nums:List[int]):
 
+		"""
+		Pass a list of integers
+		------------------------
+		nums : list of numbers  
+
+		return : boolean
+		"""
+
 		self.nums = nums 
 
 	def checkDuplicate(self)->bool:
