@@ -21,10 +21,11 @@ class TwoSum:
 
 if __name__=='__main__':
 
+	###### instantiate the class: 
 	twosum = TwoSum()
 
 	#### test case scenario: 
-
+	
 	nums,target = [2,7,11,15],9
 
 	print(f"two value sum of {target} is {twosum.twoSum(nums,target)}")
