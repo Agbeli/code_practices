@@ -5,4 +5,4 @@
 - Improve my coding skills using open-platform for coding tasks. 
  - Languages:
 	- Python  
-	- Javascript 
+	- Javascript(in-view: learning stage) 
