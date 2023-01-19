@@ -16,7 +16,7 @@ class TwoSum:
 
 				return [valueIndex[difference],indx]
 			
-			valueIndex[num] = indx
+			valueIndex[num] = indx  #### store the new value into the hashmap  
 
 
 if __name__=='__main__':
@@ -25,7 +25,7 @@ if __name__=='__main__':
 	twosum = TwoSum()
 
 	#### test case scenario: 
-	
+
 	nums,target = [2,7,11,15],9
 
 	print(f"two value sum of {target} is {twosum.twoSum(nums,target)}")
