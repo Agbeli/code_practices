@@ -16,8 +16,7 @@ class GroupAngagram:
 		"""
 
 
-		storeAnagram = defaultdict(list) #### define hashmap with default list 
-
+		storeAnagram = defaultdict(list) #### define hashmap with default list : key ---> value(list)
 
 		for word in strs:
 
@@ -37,4 +36,18 @@ if __name__ == '__main__':
 
 	strs = ["eat","tea","tan","ate","nat","bat"]
 
-	print(f"Group anagram is : {group.groupAnagram(strs)}")
+	print(f"Group anagram for {strs} : {group.groupAnagram(strs)}")
+
+	print()
+
+	strs2 = [""]
+
+	print(f"Group anagram for {strs2} : {group.groupAnagram(strs2)}")
+
+	print()
+
+	strs3 = ["a"]
+
+	print(f"Group anagram for {strs3} : {group.groupAnagram(strs3)}")
+
+
