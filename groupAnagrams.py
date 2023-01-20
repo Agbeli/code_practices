@@ -9,15 +9,21 @@ class GroupAngagram:
 
 	def groupAnagram(self,strs:List[str])->List[List[str]]:
 
+		"""
+		strs: list of strings 
 
-		storeAnagram = defaultdict(list)
+		return: list of group of anagram 
+		"""
+
+
+		storeAnagram = defaultdict(list) #### define hashmap with default list 
 
 
 		for word in strs:
 
-			sortWord = "".join(sorted(word))
+			sortWord = "".join(sorted(word)) #### rearrange the word 
 
-			storeAnagram[sortWord].append(word)
+			storeAnagram[sortWord].append(word) ### store the word in the hashmap. 
 
 		return [l for l in storeAnagram.values()]
 
