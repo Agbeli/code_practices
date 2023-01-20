@@ -1,3 +1,4 @@
+##### import the required libraries needed 
 from typing import List
 from collections import defaultdict
 
@@ -12,7 +13,11 @@ class GroupAngagram:
 		"""
 		strs: list of strings 
 
-		return: list of group of anagram 
+		return: list of group of anagram
+
+		Time complexity : O(n)
+
+		space complexity : O(n) 
 		"""
 
 
@@ -50,4 +55,6 @@ if __name__ == '__main__':
 
 	print(f"Group anagram for {strs3} : {group.groupAnagram(strs3)}")
 
+
+### Diffulty level: Medium by leetcode rating 
 
