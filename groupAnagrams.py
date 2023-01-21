@@ -11,13 +11,14 @@ class GroupAngagram:
 	def groupAnagram(self,strs:List[str])->List[List[str]]:
 
 		"""
-		strs: list of strings 
+		strs: list of strings of anagram. 
 
 		return: list of group of anagram
 
 		Time complexity : O(n)
 
 		space complexity : O(n) 
+	
 		"""
 
 
@@ -35,6 +36,8 @@ class GroupAngagram:
 
 if __name__ == '__main__':
 
+
+	#### instantiate the class GroupAnagram
 	group = GroupAngagram()
 
 	##### test case scenario:
