@@ -10,7 +10,7 @@ class TwoSum:
 
 		for indx, num in enumerate(nums):
 
-			difference = target - num 
+			difference = target - num  #### find the difference between the sum values. 
 
 			if difference in valueIndex:   #### check if the difference already exist in the hashmap
 
