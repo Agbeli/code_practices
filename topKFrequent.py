@@ -6,10 +6,9 @@ from typing import List
 
 class TopKfrequent:
 
-	def topKfrequent(self,nums:List[int],k:int):
+	def topKfrequent(self,nums:List[int],k:int)->List[int]:
 
 		stored = defaultdict(int)
-
 
 		for num in nums:
 			stored[num] += 1 
@@ -22,7 +21,7 @@ class TopKfrequent:
 
 if __name__ == '__main__':
 
-
+	#### instantiate the class:  
 	topK = TopKfrequent()
 
 	#### testcase: 
