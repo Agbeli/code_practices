@@ -8,6 +8,13 @@ from typing import List
 class ProductExceptSelf:
 	def _productExceptSelf(self,nums:List[int])->List[int]:
 
+		"""
+		nums: list of integer 
+
+		return: product of integer except the given index. 
+		
+		"""
+
 		product = [1] * len(nums) #### initialize the indices with 1 
 
 		preproduct = 1  ### prefix the product with 1 
@@ -45,7 +52,7 @@ if __name__ == '__main__':
 	print(f"product Except Self of {nums} is {prodExceptSelf._productExceptSelf(nums)}")
 
 	print()
-	
+
 	nums2 = [-1,1,0,-3,3]
 
 	print(f"product Except Self of {nums2} is {prodExceptSelf._productExceptSelf(nums2)}")
