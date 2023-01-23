@@ -34,6 +34,8 @@ class ProductExceptSelf:
 
 if __name__ == '__main__':
 
+
+	#### instantiate the prodExceptSelf 
 	prodExceptSelf = ProductExceptSelf()
 
 	##### test case 
@@ -41,3 +43,7 @@ if __name__ == '__main__':
 	nums = [1,2,3,4]
 
 	print(f"product Except Self of {nums} is {prodExceptSelf._productExceptSelf(nums)}")
+
+	nums2 = [-1,1,0,-3,3]
+
+	print(f"product Except Self of {nums2} is {prodExceptSelf._productExceptSelf(nums2)}")
