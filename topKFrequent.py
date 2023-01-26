@@ -8,6 +8,15 @@ class TopKfrequent:
 
 	def topKfrequent(self,nums:List[int],k:int)->List[int]:
 
+		"""
+		nums : input a list of integers 
+
+		k : topmost frequent integer in the list. 
+
+		return : list of topmost integers.
+
+		"""
+
 		stored = defaultdict(int) #### define a hashmap to store frequency of the digits.  
 
 		for num in nums:
