@@ -8,12 +8,12 @@ class TopKfrequent:
 
 	def topKfrequent(self,nums:List[int],k:int)->List[int]:
 
-		stored = defaultdict(int)
+		stored = defaultdict(int) #### define a hashmap to store frequency of the digits.  
 
 		for num in nums:
 			stored[num] += 1 
 
-		sortFrequency = sorted(stored.items(), key=lambda x: x[1],reverse=True)
+		sortFrequency = sorted(stored.items(), key=lambda x: x[1],reverse=True) #### sort the values of the data stored. 
 
 		return [key for key, _ in sortFrequency[:k]]
 
