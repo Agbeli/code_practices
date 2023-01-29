@@ -30,7 +30,7 @@ class ProductExceptSelf:
 
 		for i in range(len(nums)-1,-1,-1):
 
-			product[i] *= postproduct
+			product[i] *= postproduct ### update the product 
 
 			postproduct *= nums[i]
 

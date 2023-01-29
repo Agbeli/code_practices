@@ -13,7 +13,7 @@ class TopKfrequent:
 
 		k : topmost frequent integer in the list. 
 
-		return : list of topmost integers.
+		return : list of topmost integers. 
 
 		"""
 
@@ -33,7 +33,7 @@ if __name__ == '__main__':
 	#### instantiate the class:  
 	topK = TopKfrequent()
 
-	#### testcase: 
+	#### testcase: ####### 
 
 	nums, k = [1,1,1,2,2,3], 2
 
@@ -41,7 +41,8 @@ if __name__ == '__main__':
 
 	print()
 	
-	#### testcase 2:
+	#### testcase 2: ######
+
 	nums2,k2 = [1], 1
 
 	print(f"top {k2} of {nums2} is {topK.topKfrequent(nums2,k2)}")
