@@ -15,6 +15,10 @@ class TopKfrequent:
 
 		return : list of topmost integers. 
 
+		Time Complexity : O(n)
+
+		Space Complexity : O(n)
+
 		"""
 
 		stored = defaultdict(int) #### define a hashmap to store frequency of the digits.  
