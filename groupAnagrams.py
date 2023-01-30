@@ -13,11 +13,11 @@ class GroupAngagram:
 		"""
 		strs: list of strings of anagram. 
 
-		return: list of group of anagram
+		return: list of group of anagram of words.
 
 		Time complexity : O(n)
 
-		space complexity : O(n) 
+		space complexity  : O(n) 
 	
 		"""
 
