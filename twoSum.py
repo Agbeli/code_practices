@@ -16,12 +16,12 @@ class TwoSum:
 
 				return [valueIndex[difference],indx]
 			
-			valueIndex[num] = indx  #### store the new value into the hashmap  
+            valueIndex[num] = indx  #### store the new value into the hashmap num ---> indx   
 
 
 if __name__=='__main__':
 
-	###### instantiate the class: 
+	###### instantiate the class:  
 	twosum = TwoSum()
 
 	#### test case scenario: 
