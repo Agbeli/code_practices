@@ -6,6 +6,15 @@ class TwoSum:
 
 	def twoSum(self,nums:List[int],target:int):
 
+        """
+        nums : input a list of integers 
+
+        target : the target sum value. 
+
+
+        return : list of two target integer indices. 
+        """
+
 		valueIndex = {} ##### set a hashmap for value --> index 
 
 		for indx, num in enumerate(nums):
@@ -16,7 +25,7 @@ class TwoSum:
 
 				return [valueIndex[difference],indx]
 			
-            valueIndex[num] = indx  #### store the new value into the hashmap num ---> indx   
+            valueIndex[num] = indx  #### store the new value into the hashmap: num ---> indx   
 
 
 if __name__=='__main__':
