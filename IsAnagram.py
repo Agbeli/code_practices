@@ -1,4 +1,4 @@
-######## solution for two word is anagram: 
+######## solution for two word is anagram:################# 
 
 
 
@@ -26,7 +26,7 @@ if __name__ == '__main__':
 	### instantiate the class: 
 	anagram = IsAnagram()
 
-	###### test samples 
+	###### testcase 1: 
 	s, t = "anagram", "nagaram"
 
 	print(f"Are these two words: {s} and {t} anagram: {anagram.isAnagram(s,t)}")
