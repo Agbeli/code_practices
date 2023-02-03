@@ -32,7 +32,7 @@ if __name__ == '__main__':
 	print(f"Are these two words: {s} and {t} anagram: {anagram.isAnagram(s,t)}")
 
 	print()
-
+	##### testcase 2: 
 	s2,t2 = "rat", "car"
 
 	print(f"Are these two words: {s2} and {t2} anagram: {anagram.isAnagram(s2,t2)}")
