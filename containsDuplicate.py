@@ -1,6 +1,4 @@
-### The goal is to check if there are duplicates in the array. 
-### return a boolean output. 
-
+### The goal is to check if there are duplicates in the array. #######
 from typing import List
 
 class ContainsDuplicate:
@@ -9,7 +7,7 @@ class ContainsDuplicate:
 		"""
 		Pass a list of integers
 		------------------------
-		nums : list of numbers  
+		nums : list of numbers   
 
 		return : boolean
 		"""
@@ -47,7 +45,10 @@ if __name__ == '__main__':
 	print(f"The {nums2} has duplicate elements: {constainsElement2.checkDuplicate()}")
 
 	print()
+
 	##### testcase 3: 
 	nums3 = [1,1,1,3,3,4,3,2,4,2]
 	constainsElement3 = ContainsDuplicate(nums=nums3)
-	print(f"The {nums3} has duplicate elements: {constainsElement3.checkDuplicate()}")
+	print(f"The {nums3} has duplicate elements: {constainsElement3.checkDuplicate()}"
+
+)
