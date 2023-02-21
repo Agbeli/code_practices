@@ -56,3 +56,10 @@ if __name__ == '__main__':
 	nums2 = [-1,1,0,-3,3]
 
 	print(f"product Except Self of {nums2} is {prodExceptSelf._productExceptSelf(nums2)}")
+
+	print()
+
+	nums3 = [-1,2,0,1,1,2]
+
+	print(f"product Except Self of {nums3} is {prodExceptSelf._productExceptSelf(nums3)}")
+
