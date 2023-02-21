@@ -54,3 +54,7 @@ if __name__ == '__main__':
 	nums3 , k3 = [9,9,9,9,9,1,1,1,3,4,3,5], 3
 	print(f"top {k3} of {nums3} is {topK.topKfrequent(nums3,k3)}")
 
+
+	nums4 , k4 = [3,4,4,4,5,6,2,4,4,4,3,2,3] , 2
+
+	print(f"top {k4} of {nums4} is {topK.topKfrequent(nums3,k3)}")
