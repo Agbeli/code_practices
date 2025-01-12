@@ -16,7 +16,7 @@ class LinkedList:
 			self.head = node
 		else:
 			lastNode = self.head
-			while lastNode:
+			while lastNode.next:
 				lastNode = lastNode.next
 			lastNode = node
 
