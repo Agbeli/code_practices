@@ -68,9 +68,9 @@ def recursive_binary_search(list,target):
 
 if __name__ == '__main__':
     
-    numbers = [num for num in range(1,11)]
+   # numbers = [num for num in range(1,11)]
     
-    result = recursive_binary_search(numbers,5)
+   # result = recursive_binary_search(numbers,5)
     
     verify(result)
     
