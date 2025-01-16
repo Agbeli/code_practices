@@ -5,7 +5,21 @@ from typing import List
 
 
 def twoSum(nums:List[int],target:int):
-	return 10	
+    
+    hashmap = {}
+    
+    for indx, num in enumerate(nums):
+        
+        diff = target - num 
+        
+        if diff in hashmap:
+            
+            return [hashmap[diff],indx]
+        
+        else:
+            
+            hashmap[num] = indx 
+            
 
 
 if __name__=='__main__':
