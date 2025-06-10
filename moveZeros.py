@@ -3,7 +3,10 @@ from typing import List
 
 
 def moveZeros(nums:List):
-	pass
+	
+	lastZeroNum = 0 
+	size = len(nums)
+	
 
 
 
