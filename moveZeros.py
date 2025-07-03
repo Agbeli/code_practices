@@ -2,7 +2,11 @@ from typing import List
 
 
 def moveZeros(nums:List):
-	
+
+	"""
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """ 	
 	lastZeroNum = 0 
 	size = len(nums)
 	
