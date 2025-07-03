@@ -17,8 +17,8 @@ def moveZeros(nums:List):
 			
 			temp = nums[lastZeroNum]
 			nums[lastZeroNum] = nums[indx]
-			lastZeroNum += 1
 			nums[indx] = temp 
+			lastZeroNum += 1 
 	return nums	
 
 
