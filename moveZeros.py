@@ -25,7 +25,7 @@ def moveZeros(nums:List):
 
 
 if __name__ == "__main__":
-	## sample input 
+	## sample cases  
 	nums = [0,1,3,0,5]
 	print(moveZeros(nums))
 	print("*" * 20)
