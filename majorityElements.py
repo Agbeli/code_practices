@@ -41,7 +41,7 @@ def majorityElements2(nums: List):
 	for num in nums:
 		if counter == 0:
 			ans = num 
-		counter += 1 if ans == num else -1 ## substract 1 when the current num is different from the next one otherwise add. 
+		counter += (1 if ans == num else -1) ### substract 1 when the current num is different from the next one otherwise add. 
 	return ans 
 
 
