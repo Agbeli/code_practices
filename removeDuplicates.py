@@ -26,6 +26,11 @@ if __name__ == "__main__":
 	nums = [0,0,1,1,1,2,2,3,3,4]
 	print(removeDuplicates(nums))
 
+	#### case 2 
+	nums2 = [2,2,2,2,3,3,4,1,13,4,4]
+	print(removeDuplicates(nums2))
+
+
 
 
  
