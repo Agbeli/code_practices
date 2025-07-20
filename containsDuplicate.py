@@ -7,7 +7,7 @@ class ContainsDuplicate:
 		"""
 		Pass a list of integers
 		------------------------
-		nums : list of numbers   
+		nums : list of numbers, List[nums]   
 
 		return : boolean
 		"""
@@ -37,14 +37,14 @@ if __name__ == '__main__':
 	constainsElement = ContainsDuplicate(nums=nums1)
 	print(f"The {nums1} has duplicate elements: {constainsElement.checkDuplicate()}")
 
-	print()
+	print("#"*20)
 	
 	##### testcase 2:
 	nums2 = [1,2,3,4]
 	constainsElement2 = ContainsDuplicate(nums=nums2)
 	print(f"The {nums2} has duplicate elements: {constainsElement2.checkDuplicate()}")
 
-	print()
+	print("#"*20)
 
 	##### testcase 3: 
 	nums3 = [1,1,1,3,3,4,3,2,4,2]
