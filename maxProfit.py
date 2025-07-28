@@ -21,7 +21,7 @@ def maxProfit(prices: List[int]):
                max_profit = max(prices[timeTosell] - prices[timeTobuy],max_profit)
            else:
                timeTobuy = timeTosell
-           timeTosell += 1 
+           timeTosell += 1 ### incremental timestamp   
 
        return max_profit        
 
