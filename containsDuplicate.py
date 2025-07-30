@@ -8,7 +8,8 @@ class ContainsDuplicate:
 		Pass a list of integers
 		------------------------
 		nums : list of numbers, List[nums]   
-
+		Time complexity : O(n)
+		space complexity : (n) 
 		return : boolean
 		"""
 
