@@ -18,7 +18,8 @@ def twoSum(nums:List[int],target:int):
         
         else:
             
-            hashmap[num] = indx 
+            hashmap[num] = indx
+    return [] 
             
 
 
