@@ -1,4 +1,3 @@
-
 from typing import List 
 
 
@@ -12,8 +11,8 @@ def subArray_sum(nums: List,k):
 	 return:
 		maximum value 
 	"""
-	counter = 0 
-	sumValues = 0
+	counter = 0    # initialize the counter  
+	sumValues = 0  # sum the values 
 	for idx in range(k):
 		sumValues+= nums[idx]
 	maxValue = sumValues 
@@ -22,7 +21,7 @@ def subArray_sum(nums: List,k):
 		sumValues += nums[j]  # update the sum value 
 		counter += 1  # increase the counter 
 			
-		maxValue = max(sumValues, maxValue)
+		maxValue = max(sumValues, maxValue) # get the updated maximum value 
 
 	return maxValue
 
