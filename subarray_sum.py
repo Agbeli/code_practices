@@ -19,9 +19,9 @@ def subArray_sum(nums: List,k):
 	maxValue = sumValues 
 	for j in range(k,len(nums)):
 		sumValues -= nums[counter] 
-		sumValues += nums[j]
-		counter += 1 
-		
+		sumValues += nums[j]  # update the sum value 
+		counter += 1  # increase the counter 
+			
 		maxValue = max(sumValues, maxValue)
 
 	return maxValue
