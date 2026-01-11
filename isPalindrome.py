@@ -1,5 +1,3 @@
-
-
 ## define the function to check for palindrome 
 
 def isPalindrome(s:str):
@@ -26,5 +24,7 @@ if __name__ == "__main__":
 	print(isPalindrome(str1)) 
 
 	print("#" * 30)
+	str2 = "This is nice experience here to work hard and achieve my goals in the short and long terms bingo sihT"
+	print(isPalindrome(str2))
 
 	
