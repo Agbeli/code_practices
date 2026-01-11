@@ -7,23 +7,24 @@ def subArray_sum(nums: List,k):
 	"""
 	 nums: List of elements to sum 
 	 k: number of subarray to sum 
+	
 
 	 return:
 		maximum value 
 	"""
-	counter = 0    # initialize the counter  
-	sumValues = 0  # sum the values 
-	for idx in range(k):
-		sumValues+= nums[idx]
-	maxValue = sumValues 
-	for j in range(k,len(nums)):
-		sumValues -= nums[counter] 
-		sumValues += nums[j]  # update the sum value 
-		counter += 1  # increase the counter 
-			
-		maxValue = max(sumValues, maxValue) # get the updated maximum value 
+	counter = 0 
+	sumValue = 0 
 
-	return maxValue
+	for i in range(k):
+		sumValue += nums[i]
+	maxValue = sumValue
+	
+	for j in range(k,len(nums)):
+		sumValue += nums[j]
+		sumValue -= nums[counter]
+		counter += 1 
+		maxValue = max(maxValue, sumValue)
+	return maxValue 
 
 
 if __name__ == "__main__":
