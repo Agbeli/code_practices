@@ -11,8 +11,7 @@ def subArray_sum(nums: List,k):
 
 	 return:
 		maximum value 
-	"""
-	counter = 0 
+	""" 
 	sumValue = 0 
 
 	for i in range(k):
@@ -21,8 +20,7 @@ def subArray_sum(nums: List,k):
 	
 	for j in range(k,len(nums)):
 		sumValue += nums[j]
-		sumValue -= nums[counter]
-		counter += 1 
+		sumValue -= nums[i - k]
 		maxValue = max(maxValue, sumValue)
 	return maxValue 
 
