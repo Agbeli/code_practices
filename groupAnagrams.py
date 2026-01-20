@@ -30,8 +30,19 @@ class GroupAngagram:
 
 			storeAnagram[sortWord].append(word) ### store the word in the hashmap. 
 
-		return [l for l in storeAnagram.values()]
+		return list(storeAnagram.values())
+	
+	def groupAnagram2(self,strs: List[str])-> List[List[str]]:
+		storage = defaultdict(list) 
+		for text in strs:
+			keys = [0] * 26 
+			for l in text:
+				keys[ord(l) - ord("a")] += 1 
+			storage[tuple(keys)].append(text) 
+		return list(storage.values())
 
+
+	
 
 
 if __name__ == '__main__':
@@ -44,7 +55,7 @@ if __name__ == '__main__':
 
 	strs = ["eat","tea","tan","ate","nat","bat"]
 
-	print(f"Group anagram for {strs} : {group.groupAnagram(strs)}")
+	print(f"Group anagram for {strs} : {group.groupAnagram2(strs)}")
 
 	print()
 
@@ -52,7 +63,7 @@ if __name__ == '__main__':
 
 	strs2 = [""]
 
-	print(f"Group anagram for {strs2} : {group.groupAnagram(strs2)}")
+	print(f"Group anagram for {strs2} : {group.groupAnagram2(strs2)}")
 
 	print()
     
@@ -60,7 +71,7 @@ if __name__ == '__main__':
 
 	strs3 = ["a"]
 
-	print(f"Group anagram for {strs3} : {group.groupAnagram(strs3)}")
+	print(f"Group anagram for {strs3} : {group.groupAnagram2(strs3)}")
 
 
 ### Diffulty level: Medium by leetcode rating 
