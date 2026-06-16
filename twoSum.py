@@ -7,7 +7,7 @@ from typing import List
 
 def twoSum(nums:List[int],target:int):
     
-    hashmap = {}
+    hashmap = dict()
     
     for indx, num in enumerate(nums):
         
